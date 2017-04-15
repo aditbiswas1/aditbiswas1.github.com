@@ -1,0 +1,4 @@
+Sitemap: http://aditbiswas1.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: aditbiswas1.github.io
