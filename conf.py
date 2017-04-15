@@ -134,11 +134,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
-}
+            ('/index.html', 'Home', 'icon-home'),
+            ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+            ('/categories/index.html', 'Tags', 'icon-tags'),
+            ('/rss.xml', 'RSS', 'icon-rss'),
+            ('https://aditbiswas1.github.io', 'About me', 'icon-user'),
+            ('https://twitter.com/floatingshroomy', 'My Twitter', 'icon-twitter'),
+            ('https://github.com/aditbiswas1', 'My Github', 'icon-github'),
+        )
+    }
 
 # Name of the theme to use.
 THEME = "bootstrap3"
@@ -1321,3 +1325,5 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+
